@@ -327,7 +327,7 @@ arrowdown.addEventListener("click", ArrowDown);
 const letterKeys = ["Backquote", "Digit1", "Digit2", "Digit3", "Digit4", "Digit5", "Digit6", "Digit7", "Digit8", "Digit9", "Digit0", "Minus", "Equal", "KeyQ", "KeyW", "KeyE", "KeyR", "KeyT", "KeyY", "KeyU", "KeyI", "KeyO", "KeyP", "BracketLeft", "BracketRight", "Backslash", "KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ", "KeyK", "KeyL", "Semicolon", "Quote", "KeyZ", "KeyX", "KeyC", "KeyV", "KeyB", "KeyN", "KeyM", "Comma", "Period", "Slash", "Metaleft"];
 const arrr = ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]", "|", "A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "Z", "X", "C", "V", "B", "N", "M", ".", ",", "/", "Win"];
 const arrr2 = ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "Й", "Ц", "У", "К", "Е", "Н", "Г", "Ш", "Щ", "З", "Х", "Ъ", "|", "Ф", "Ы", "В", "А", "П", "Р", "О", "Л", "Д", "Ж", "Э", "Я", "Ч", "С", "М", "И", "Т", "Ь", "Б", "Ю", "/", "Win"];
-// const sup1 = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+", ""];
+
 
 document.onkeydown = function (e) {
   const selected = [textarea.selectionEnd, textarea.selectionStart];
@@ -491,7 +491,6 @@ document.onkeyup = function (e) {
     }
   }
   enter.style.backgroundColor = "black";
-  // capslock.style.backgroundColor="black";
   tab.style.backgroundColor = "black";
   space.style.backgroundColor = "black";
   del.style.backgroundColor = "black";
